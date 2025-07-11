@@ -28,10 +28,11 @@
 
 
 
-nav{
+.banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 
 .LOGO{
@@ -39,4 +40,34 @@ nav{
     color: #4E47FF;
     max-width: 100%;
     max-height: 50%;
+}
+
+
+/* banner */
+
+
+.ban_header{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.ban_btn{
+    margin-top: 35px;
+}
+
+.banner_text{
+    max-width: 900px;
+    max-height: 240px;
+    text-align: center;
+    margin:  0 auto;
+    padding: 150px 260px;
+}
+
+header{
+    
+   background-image: url('Assets/Hero-bg.png');
+   max-width: 100%;
+   max-height: 700px;
+    
 }
