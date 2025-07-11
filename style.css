@@ -249,3 +249,36 @@ form textarea {
     width: 440px;
     text-align: center;
 }
+
+
+/* footer */
+
+.foot{
+    background-color:rgba(255, 255, 255, 1) ;
+    max-width: 1440px;
+    text-align: center;
+    padding: 104px 450px;
+}
+
+.foot_container{
+    display: flex;
+    gap:  50px;
+    justify-content: center;
+}
+
+.foot_logo{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot_text .foot_link{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+}
+
+.foot_container a{
+    text-decoration: none;
+    color: black;
+}
+
