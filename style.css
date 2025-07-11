@@ -253,32 +253,79 @@ form textarea {
 
 /* footer */
 
-.foot{
-    background-color:rgba(255, 255, 255, 1) ;
+.foot {
+    background-color: rgba(255, 255, 255, 1);
     max-width: 1440px;
     text-align: center;
     padding: 104px 450px;
 }
 
-.foot_container{
+.foot_container {
     display: flex;
-    gap:  50px;
+    gap: 50px;
     justify-content: center;
 }
 
-.foot_logo{
+.foot_logo {
     font-size: 100px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.foot_text .foot_link{
+.foot_text .foot_link {
     color: rgba(137, 135, 161, 1);
     font-size: 20px;
 }
 
-.foot_container a{
+.foot_container a {
     text-decoration: none;
     color: black;
 }
 
+
+/* bonus portion */
+
+.bonus {
+    padding: 24px;
+    margin-top: 70px;
+}
+
+.bonuss_tittle {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bonus_container {
+    display: flex;
+    gap: 20px;
+}
+
+.bonus_cols {
+    max-width: 365px;
+    max-height: 445px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.bonus_tittle {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bonus_subtittl {
+    font-size: 25px;
+}
+
+.secondary_contrainer {
+    display: flex;
+    justify-content: left;
+
+}
+
+.second_img {
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+}
