@@ -247,6 +247,18 @@ form textarea {
 
 }
 
+form  textarea::placeholder{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+form input::placeholder{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
 .form_button {
     width: 440px;
     text-align: center;
