@@ -28,7 +28,9 @@ body {
     font-weight: bold;
 }
 
-
+.primary_btn:hover {
+    background-color: black;
+}
 
 
 
