@@ -260,7 +260,7 @@ form input::placeholder{
 }
 
 .form_button {
-    width: 440px;
+    width: 100%;
     text-align: center;
 }
 
